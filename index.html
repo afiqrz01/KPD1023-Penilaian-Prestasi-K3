@@ -1,20 +1,25 @@
+
 <html>
-    <head>
-        <title>Biodata Saya</title>
-    </head>
-    <body>
+  <head>
+    <title>Biodata Saya</title>
+  </head>
+  
+  <body>
     <center>
-        <table width="80%" border="3">
+      
+      <table width="75%" border="2">
+        <tr>
+          <th width="20%"><img src="images/profil_header.jpg" width="100%"></th>
+          <th><font size="50"><i>Biodata Saya</i></font></th>
+        </tr>
+      </table>   
+
+      <br>
+      
+        <table width="75%" border="2">
             <tr>
-                <th width="30%">
-                    <img src="images/profil_header.jpg" alt="" srcset="">
-                </th><th><h1>Biodata Saya</h1></th>
-            </tr>
-        </table>
-        <br>
-        <table width="80%" border="1">
-            <tr>
-                <td width="25%">
+                <td width="35%">
+                    
                     <h4>Senarai Menu</h4>
                     <ul>
                         <li><h4><a href="index.html">UTAMA</a></h4></li>
@@ -22,43 +27,49 @@
                         <li><h4><a href="#">HOBI SAYA</a></h4></li>
                         <li><h4><a href="#">HUBUNGI SAYA</a></h4></li>
                     </ul>
-                </td>
-                <td width="75%" align="center">
-                   
-        <form>
-          <p>NAMA :  <textarea cols="50" rows="2" name="mesej"></textarea></p>
-          <P>ALAMAT:  <textarea cols="50" rows="3" name="mesej"></textarea></p>
-            
-            
-              <p>NEGERI : <select name="negeri">
-                        <option>JOHOR</option>
-                        <option>KEDAH</option>
-                        <option>KUALA LUMPUR</option>
-                        <option>SELANGOR</option>
-                        <option>SERAWAK</option>
-                      </select> 
-                  
-            <p>HOBI :       <input type="checkbox" name="hobi_1" value="Makan">Makan
-                            <input type="checkbox" name="hobi_2" value="Tidur">Tidur
-                            <input type="checkbox" name="hobi_3" value="Membaca">Membaca
-                            <input type="checkbox" name="hobi_4" value="Masak">Masak
-                 </p>
-            </td>
-          
-         
-            
-           
-
-        <br>
-
-        <table width="80%" border="3">
-            <tr>
-                <td align="center">
-                    &copy; BIODATA SAYA, 2021
-                </td>
-            </tr>
+                    
+                  <td width="75%" align="left">
+                    <form>
+                      <p>NAMA : <input type="text" name="nama"></p>
+                      <p>ALAMAT : <textarea cols="50" rows="3" name="alamat"></textarea></p>
+                      <p>NEGERI : <select name="negeri">
+                            <option>JOHOR</option>
+                            <option>KEDAH</option>
+                            <option>KUALA LUMPUR</option>
+                            <option>SELANGOR</option>
+                            <option>SERAWAK</option>
+                          </select>
+                      </p>
+                      <p>HOBI :</p>
+                        <form>
+                            <input type="checkbox">Makan<br>
+                           <input type="checkbox">Tidur<br>
+                           <input type="checkbox">Membaca<br>
+                           <input type="checkbox">Memasak<br>
+                           <input type="checkbox">Berlari<br>
+                      <p>KURSUS :</p>
+                        <form>
+                           <input type="radio">BAK<br>
+                           <input type="radio">BPP<br>
+                           <input type="radio">BKP<br>
+                           <input type="radio">KPD<br>
+                      <p>
+                         <input type="submit">
+                         &nbsp;
+                         <input type="reset">
+                      </p>
+                    </form>
+              </td>
+          </tr>
+      </table>
+      
+      <br>
+        
+        <table width="75%" border="2">
+        <tr>
+          <td align="center"><i><b>&copy; BIODATA SAYA, 2021</b></i></td>
+        </tr>
         </table>
-    </center>
-    </body>
+      </center>
+   </body>
 </html>
-
